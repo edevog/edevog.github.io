@@ -1,0 +1,112 @@
+body {
+font-family:  "Open Sans","verdana", "arial", sans-serif;
+/* text-align: center;*/
+}
+
+a {
+text-decoration:none;
+}
+
+a {
+color:#CD1076;
+}
+
+
+a:hover{
+  color:#9842E3;
+}
+
+div#diagram{
+    float: left;
+    margin-left: 40%;
+}
+
+div#diagram p{
+    color: LightGray;
+    font-size: .8em;
+    text-align: center
+}
+
+
+div#leftbar {
+	left:5%;
+	/*margin-left:-475px;*/
+  position:fixed;
+  width:100%;
+  top:0px;
+  min-height:80%;
+  margin-left:auto; margin-right:0;
+  overflow: hidden;
+
+}
+
+
+div#page{
+  width:100%;
+  min-height:100%;
+   position:-10%;
+  overflow:hidden;
+margin-left:auto; margin-right:0;
+}
+
+
+
+footer {
+  display: block;
+}
+
+#footer {
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  margin-top: 3em;
+  width: 100%;
+  border-top: 5px solid LightGray;
+  border-top-style: dashed;
+  
+  padding-bottom: 1em;
+}
+#footer .links {
+  width: 14em;
+  float: left;
+  margin-left: 1em;
+}
+#footer .links.first {
+  margin-left: 0;
+}
+#footer .links h2 {
+  margin-top: 1em;
+  font-size: 1em;
+}
+#footer .links .links-list {
+  font-size: .8em;
+  list-style-type: none;
+}
+/*
+#footer .links a,
+#footer .links a:visited,
+#footer .links a:hover,
+#footer .links a:active {
+  color: #8d0e18;
+}
+*/
+#footer .legal {
+  clear: both;
+  margin-top: 10em;
+}
+
+#footer .legal a {
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+

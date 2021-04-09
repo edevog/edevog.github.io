@@ -1,0 +1,125 @@
+body {
+ font-family:  "Open Sans","verdana", "arial", sans-serif;
+ text-align: center;
+ font-size: 4vw;
+}
+
+a {
+text-decoration:none;
+}
+
+a {
+color:#CD1076;
+}
+
+
+a:hover{
+  color:#9842E3;
+}
+
+div#diagram{
+    display: block;
+    clear: both;
+    float:center;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    padding:1em;
+    /*margin-left:auto;*/
+    /* margin-right:0;*/
+    /*margin-left: 5%;*/
+
+    /* hide diagram element for small screens */
+    visibility: hidden;
+}
+
+div#diagram p{
+    color: LightGray;
+    font-size: .5em;
+    text-align: center;
+    /* hide diagram element for small screens */
+    visibility: hidden;
+}
+
+
+div#leftbar {
+    display: block;
+    clear: both;
+    float:center;
+    position:relative;
+    /*margin-left:10%;*/
+    width:100%;
+    top:0px;
+    min-height:80%;
+    /*margin-left:auto; margin-right:0;*/
+    text-align: center;
+}
+
+/*
+footer {
+  display: block;
+}
+*/
+
+#footer {
+  clear: both;
+  /* position: fixed; */
+   float:center;
+    margin-left:30%;
+    width:100%;
+    top:0px;
+    min-height:80%;
+    margin-left:auto; margin-right:0;
+    overflow: hidden;
+ /* bottom: 0;
+  margin-top: 3em;
+  width: 100%;*/
+  border-top: 5px solid LightGray;
+  border-top-style: dashed; 
+  padding-bottom: 1em;
+}
+#footer .links {
+    float:center;
+    margin-left:30%;
+    width:100%;
+    top:0px;
+    min-height:80%;
+    margin-left:auto; margin-right:0;
+    overflow: hidden;
+}
+#footer .links h2 {
+  margin-top: 1em;
+  font-size: 1em;
+}
+#footer .links .links-list {
+  font-size: .8em;
+  list-style-type: none;
+}
+/*
+#footer .links a,
+#footer .links a:visited,
+#footer .links a:hover,
+#footer .links a:active {
+  color: #8d0e18;
+}
+*/
+#footer .legal {
+  clear: both;
+  margin-top: 10em;
+}
+
+#footer .legal a {
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+

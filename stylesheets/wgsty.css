@@ -1,0 +1,116 @@
+body {
+font-family:  "Open Sans","verdana", "arial", sans-serif;
+/* text-align: center;*/
+}
+
+a {
+text-decoration:none;
+}
+
+a {
+color:#CD1076;
+}
+
+
+a:hover{
+  color:#9842E3;
+}
+
+h3 a:link,
+h3 a:visited {
+    color: #3eb9a9;
+}
+h3 a:hover {
+    color: #9842E3;
+}
+
+div#diagram{
+    float: left;
+    margin-left: 50%;
+}
+
+div#diagram p{
+    color: LightGray;
+    font-size: .8em;
+    text-align: center
+}
+
+
+div#leftbar {
+	left:20%;
+  position:fixed;
+  width:40%;
+  top:0px;
+  min-height:80%;
+  overflow: hidden;
+
+}
+
+
+footer {
+  display: block;
+}
+
+#footer {
+  /*clear: both;*/
+  /* position: fixed; */
+  float:left;
+  bottom: 0;
+  margin-top: 3em;
+  margin-left:20%;
+  width: 50%;
+  border-top: 5px solid LightGray;
+  border-top-style: dashed;
+  padding-bottom: 1em;
+}
+#footer .links {
+  width: 12em;
+  float: left;
+  margin-left: 1em;
+  color: Gray;
+}
+
+#footer .links.first {
+  margin-left: 0;
+}
+#footer .links h2 {
+  margin-top: 1em;
+  font-size: 1em;
+  color: Black;
+}
+#footer .links .links-list {
+  font-size: .8em;
+  list-style-type: none;
+}
+
+#footer .links a,
+#footer .links a:visited,
+#footer .links a:active {
+  color: Gray;
+}
+
+#footer .links a:hover {
+  color: Turquoise;
+}
+
+
+#footer .legal {
+  clear: both;
+  margin-top: 10em;
+}
+
+#footer .legal a {
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
